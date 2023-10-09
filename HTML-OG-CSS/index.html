@@ -3,23 +3,80 @@
     <head>
         <meta name="viewport" content="width=device-width, initiale-scale=1.0">
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css" type="text/css">
         <title>Forside</title>
     </head>
     <body>
+        <!--slik skriver du kommentarer i html-->
         <header>
             <nav>
                 <span>
                     <a href="index.html">logo</a>
                 </span>
                 <ul>
-                    <li><a href="about.html">about</a></li>
-                    <li><a href="#">subscribe</li>
+                    <li><a href="#about-section">about</a></li>
+                    <li><a href="#">subscribe</a></li>
                     <li><a href="#">contact</a></li>
                 </ul>
             </nav>   
             <h1>sup</h1>
             <p>slagord</p>        
         </header>
+        <main>
+            <section>
+                <h2>latest news</h2>
+                <article>
+                    <img src="img/turtle-8105993_640.jpg" alt="dette er en skillpadde oaoa">
+                    <h3>søt skillpadde </h3>
+                    <p>Vivamus in tempus dui. Mauris nec dignissim est. Phasellus id felis augue.</p>
+                    <a href="#" class="read-more-btn">les mer bitches</a>
+                    
+                </article>
+                <article>
+                    <img src="img/willow-warbler-8071472_640.jpg" alt="willow, idk hva det er men forklaring yoo">
+                    <h3>willow er noe</h3>
+                    <p>Ut non est justo. Morbi laoreet mollis sem at ultricies.</p>
+                    <a href="#" class="read-more-btn">les mer alle sammen</a>
+                </article>
+                <article>
+                    <img src="img/cat-8197577_640.jpg" alt="pusekatt">
+                    <h3>en liten kattepus</h3>
+                    <p>mjau mjau mjau mjau mjau mjau mjau mjau</p>
+                    <a href="#" class="read-more-btn">les mer om pusen</a>
+                </article>
+            </section>
+        </main>
+        <section id="about-section">
+            <div id="pynt">
 
+            </div>
+            <h2>about</h2>
+            <p>Ut non est justo. Morbi laoreet mollis sem at ultricies. Phasellus vel urna ultricies, venenatis turpis 
+                lobortis, facilisis ex. Quisque vitae auctor ligula. Praesent suscipit scelerisque diam eget consequat. 
+                Aenean quis erat mattis, ornare orci in, dignissim justo.
+            </p>
+
+        </section>
+        <section id="subscribe">
+            <h3>subscribe</h3>
+            <form>
+                <label for="email-signup">email for newletter sign-up</label>
+                <input type="text"  id="email-signup">
+                <input type="submitt" value="sign up">
+            </form>
+        </section>
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">subscribe</a></li>
+                </ul>
+            </nav>
+            <ul id="social-icons">
+                <li>f</li>
+                <li>i</li>
+                <li>p</li>
+            </ul>
+        </footer>
     </body>
 </html>
